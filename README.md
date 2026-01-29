@@ -34,7 +34,7 @@ You can specify the model type using the --model argument:
 ### **Example Training Command**
 
 ```
-python train.py \
+python exps/train_all.py \
   --model ctmdnx \
   --task person \
   --seq_len 32 \
